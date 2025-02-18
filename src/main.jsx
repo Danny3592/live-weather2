@@ -9,8 +9,7 @@ import Home from './pages/Home.jsx';
 const routes = createBrowserRouter([
   {
     path: '/',
-    element: <MainHeader />,
-    children: [{ index: true, element: <Home /> }],
+    element: <Home />,
   },
 ]);
 
